@@ -20,6 +20,13 @@ var taskFormHandler = function (event) {
   var taskTypeInput = document.querySelector("select[name='task-type']").value;
   console.dir(taskTypeInput, taskNameInput);
 
+  if (!taskNameInput || !taskTypeInput) {
+      window.alert(`Please fill out all contents of the form`);
+      return false;
+  }
+
+  formEl.reset();
+
   var taskDataObj = {
     name: taskNameInput,
     type: taskTypeInput,
