@@ -59,6 +59,10 @@ form .form-group {
   flex: 1;
 }
 
+form .btn {
+  width: 30%;
+}
+
 footer {
   width: 100%;
   background: var(--secondary);
@@ -221,8 +225,8 @@ footer {
     flex: 1 100%;
   }
 
-  form .form-group button {
-    width: 100%;
+  form .butt.btn {
+    width: 30%;
   }
 
   .task-list-wrapper {
