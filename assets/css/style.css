@@ -59,8 +59,12 @@ form .form-group {
   flex: 1;
 }
 
-form .btn {
+#form.btn {
   width: 30%;
+}
+
+#save-task {
+  width: 150px;
 }
 
 footer {
