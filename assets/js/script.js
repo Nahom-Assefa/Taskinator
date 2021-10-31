@@ -178,7 +178,7 @@ var editTask = function (taskId) {
   console.log(taskName);
   document.querySelector("select[name='task-type']").value = taskType;
   console.log(taskType);
-
+ 
   document.querySelector("#save-task").textContent = "Save Task";
 
   formEl.setAttribute("data-task-id", taskId);
